@@ -92,7 +92,7 @@
       /* title color; */
    }
    .nav__close :hover{
-      color: black;
+      color: rgb(184, 20, 20);
    }
 
    .nav__toggle {
