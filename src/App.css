@@ -1,38 +1,134 @@
-.App {
-  text-align: center;
-}
+  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* ---------------------------------GOOGLE FONTS----------------------------------- */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+  /* --------------------------------------------------------------------------------------- */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  :root {
+    --body-font : "Poppins",sans-serif;
+
+    /* ------------FONT WEIGHT------------------- */
+    --font-normal : 400;
+    --font-medium : 500;
+    --font-semi-bold : 600; 
+
+    /* -----------------Z INDEX------------------- */
+    /* --z-tooltip : 10;
+    --z-fixed : 100;
+    --z-modal : 1000; */
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* ---------------------------------------------BASE CSS-------------------------------- */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
   }
-  to {
-    transform: rotate(360deg);
+  html {
+    scroll-behavior: smooth;
   }
-}
+  body,
+  button,
+  input,
+  textarea{
+    font-family :var(--body-font);
+    font-size: 1rem;
+  }
+  body {
+    background-color: rgb(69, 6, 124);
+    color: rgb(232, 211, 211);
+    /* text color */
+  }
+  h1,h2,h3 {
+    color: tomato;
+    /* title color */
+    font-weight: var(--font-semi-bold);
+  }
+
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* -----------------------------------------REUSEABLE CSS--------------------------------- */
+   .section {
+      padding: 6rem 0 2rem;
+   }
+   .section__title {
+    font-size: 2.25rem;
+    color: tomato;  
+    /* title color */
+   }
+   .section__subtitle{
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 4rem;
+   }
+   .section__title
+   .section__subtitle{
+    text-align: center;
+   }
+
+   /* -------------------------------------LAYOUT-------------------------------------- */
+
+   .container {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .grid{
+    display: grid;
+    gap: 1.5rem;
+   }
+
+   /* ============================================BUTTONS================================== */
+
+   .button {
+    display: inline-block;
+    background-color: tomato;
+    /* title color */
+    color: #fff;
+    padding: 1.25rem 2rem;
+    border-radius: 1rem;
+    font-weight: var(--font-medium);
+   }
+   .button :hover{
+    background-color: black;
+    /* title color dark */
+   }
+   .button__icon {
+    margin-left: 0.5rem;
+   }
+   .button--flex{
+    display: inline-flex;
+    align-items: center;
+   }
+     /* ========================BREAKPOINTS================================== */
+     @media screen and (max-width : 992px){
+
+      .container {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+      }
+     }
+      
+     @media screen and (max-width : 350px){
+      .container {
+        margin-left: 1rem;
+        margin-right: 1rem;
+      }
+     }
+     
