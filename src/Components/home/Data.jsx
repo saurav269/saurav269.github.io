@@ -59,6 +59,7 @@ const Data = () => {
         A creative Full Stack Web Developer and very passionate
         and dedicated to my work. 
       </p>
+      <br/>
       <a href='#contact' className='button button--flex'>
         Say Hello
         <svg
