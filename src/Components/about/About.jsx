@@ -9,7 +9,7 @@
          <span className='section__subtitle'>My Introduction</span>
 
           <div className='about__container container grid'>
-            <img src={AboutImg} alt="" className='about__img' />
+            <img src={AboutImg} alt="my name" className='about__img' />
           </div>
       </section>
      )
