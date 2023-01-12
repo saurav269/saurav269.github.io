@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d76344ad.css",
-    "main.js": "/static/js/main.97a7dcd8.js",
+    "main.css": "/static/css/main.67fee9cf.css",
+    "main.js": "/static/js/main.2eec70e9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Saurav_Mallik_Resume.pdf": "/static/media/Saurav_Mallik_Resume.33155adf2b7dd3561f56.pdf",
     "static/media/Saurav.png": "/static/media/Saurav.a490442a92357117b57c.png",
     "static/media/about.png": "/static/media/about.a490442a92357117b57c.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.d76344ad.css.map": "/static/css/main.d76344ad.css.map",
-    "main.97a7dcd8.js.map": "/static/js/main.97a7dcd8.js.map",
+    "main.67fee9cf.css.map": "/static/css/main.67fee9cf.css.map",
+    "main.2eec70e9.js.map": "/static/js/main.2eec70e9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d76344ad.css",
-    "static/js/main.97a7dcd8.js"
+    "static/css/main.67fee9cf.css",
+    "static/js/main.2eec70e9.js"
   ]
 }
