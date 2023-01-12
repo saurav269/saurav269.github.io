@@ -158,11 +158,33 @@
 @media screen and (max-width : 350px){
 
     .home__img {
-        width: 180px;
-        height: 180px;
+        /* display: block;
+       text-align: center; */
+       margin-left: 78px;
+        width: 230px;
+        height: 230px;
     }
     .home__hand {
         width: 27px;
         height: 27px;
+       margin-left: 90px;
+    }
+    .home__title{
+        margin-left: 140px;
+        font-size: 27px;
+    }
+    .home__subtitle{
+        margin-left: 165px;
+        font-size: 20px;
+    }
+    .home__description {
+        max-width: initial;
+        margin-bottom: 2.5rem;
+        margin-left: 130px;
+        font-size: 20px;
+    }
+    .button {
+        margin-left: 9rem;
+        padding: 1.5rem 2rem;
     }
 }

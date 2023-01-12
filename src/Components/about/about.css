@@ -1,0 +1,56 @@
+ 
+ .about__container {
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    column-gap: 4rem;
+ }
+ .about__img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+    margin-bottom: 36px;
+ }
+
+ .about__info {
+    grid-template-columns: repeat(3,140px);
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+ }
+
+ .about__box {
+    background-color: rgb(242, 233, 233);
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.75rem;
+    text-align: center;
+    padding: 1rem 1.25rem;
+ }
+ .about__title {
+    color: rgb(72, 69, 69);
+    font-size: 0.875rem;
+    font-weight: 400;
+ }
+ .about__subtitle{
+    color: rgb(72, 69, 69);
+    font-size: 0.625rem;
+ }
+ .about__description {
+    padding: 0 4rem 0 0;
+    margin-bottom: 2.5rem;
+ }
+
+ .about__icon{
+    color: rgb(51, 51, 230);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+ }
+ .section__title{
+    text-align: center;
+ }
+ .section__subtitle{
+    text-align: center;
+ }
+
+ /* =======================FOR LARGE SCREEN=================== */
+ @media screen and (max-width : 992px) {
+    
+ }
