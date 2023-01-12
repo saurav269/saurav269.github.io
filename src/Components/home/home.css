@@ -94,3 +94,75 @@
       font-size: 1.25rem;
       color: white;
 }
+/* ================BREAKPOINS===================== */
+@media screen and (max-width : 992px) {
+
+    .home__content {
+        grid-template-columns: 100px repeat(2,1fr);
+        column-gap: 1.25rem;
+    }
+    .home__hand {
+        width: 26px;
+        height: 26px;
+    }
+    .home__subtitle {
+        /* padding-left: 3.75rem; */
+        margin-bottom: 1rem;
+    }
+    .home__subtitle ::before {
+
+        width: 42px;
+        top: 0.8rem;
+    }
+
+    .home__description {
+        max-width: initial;
+        margin-bottom: 2.5rem;
+    }
+    .home__img {
+        width: 250px;
+        height: 250px;
+        box-shadow: inset 0 0 0 8px rgba(8, 7, 7, 0.461) ;
+    }
+
+    .home__scroll {
+        margin-left: 7.5rem;
+    }
+}
+
+/* ====================MEDIUM SCREEN================= */
+
+@media screen and (max-width : 768px){
+
+    .home__content {
+        grid-template-columns: 0.5fr 3fr;
+        padding-top: 3.5rem;
+    }
+    .home__img {
+        order: initial;
+        justify-self: initial;
+    }
+
+    .home__data {
+        grid-column: 1/3;
+    }
+    .home__img {
+        box-shadow: inset 0 0 0 6px rgba(8, 7, 7, 0.461) ;
+        width: 200px;
+        height: 200px;
+    }
+    .home__scroll {
+        display: none;
+    }
+}
+@media screen and (max-width : 350px){
+
+    .home__img {
+        width: 180px;
+        height: 180px;
+    }
+    .home__hand {
+        width: 27px;
+        height: 27px;
+    }
+}
