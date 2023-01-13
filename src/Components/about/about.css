@@ -43,6 +43,13 @@
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
  }
+ .section__title{
+   text-align: center;
+ }
+
+ .section__subtitle{
+   text-align: center;
+}
 
 
  /* =======================FOR LARGE SCREEN=================== */
@@ -80,11 +87,11 @@
    }
  }
  @media screen and (max-width : 625px) {
-   .section__title{
-      /* text-align: center; */
-      /* justify-content: center; */
-     margin-left: 240px;
-   }
+   /* .section__title{
+      text-align: center;
+      justify-content: center;
+     margin-left: 550px;
+   } */
    /* .about section{
       text-align: center;
       justify-content: center;
