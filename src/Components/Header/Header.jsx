@@ -42,10 +42,10 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#services" className="nav__link">
+                        <a href="https://drive.google.com/file/d/1NkrMnLei3JcmZzVIsE_5Bv_tPjOcq7Yb/view?usp=share_link" className="nav__link">
                             <i className="uli uil-briefcase-alt nav__icon">     
                             </i>
-                            Services
+                            Resume
                         </a>
                     </li>
 

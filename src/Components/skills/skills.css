@@ -16,7 +16,7 @@
 }
 .skills__level{
     color: rgb(102, 92, 92);
-    font-size: 13px;
+    font-size: 11px;
 }
 .bx{
     color: rgb(28, 164, 10);
@@ -36,4 +36,68 @@
     display: grid;
     align-items: flex-start;
     row-gap: 0.75rem;
+ }
+ .skills__data {
+    display: flex;
+    column-gap: 0.5rem;
+ }
+
+ .skills .bx-badge-check {
+    font-size: 1.1rem; 
+ }  
+
+ .skills__name {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 18px;
+ }
+
+ @media screen and (max-width : 992px){
+
+    .skills__container {
+        grid-template-columns: max-content;
+        row-gap: 2rem;
+    }  
+ }
+ @media screen and (max-width : 725px){
+    .skills__container {
+        /* border: 2px solid red; */
+        margin-left: 200px;
+    }
+ }
+ @media screen and (max-width : 576px){
+
+    .skills__container {
+        grid-template-columns: 1fr;
+        margin-left: 60px;
+    }
+    .skills__content {
+        padding: 1rem;
+        width: 400px;
+    }
+ }
+ @media screen and (max-width : 443px){
+
+    .skills__content{
+        width: 350px;
+    }
+ }
+ @media screen and (max-width : 400px){
+
+    .skills__content {
+        margin-right: 30px;
+        /* border: 2px solid red; */
+    }
+ }
+ @media screen and (max-width : 350px){
+
+    .skills__box {
+        column-gap: 1.25rem;
+    }
+    .skills__name {
+        font-size: 0.875rem;
+    }
+    .skills__content {
+        margin-left: 100px;
+    }
  }

@@ -184,7 +184,9 @@
         font-size: 20px;
     }
     .button {
-        margin-left: 9rem;
-        padding: 1.5rem 2rem;
+       display: block;
+       margin-left: 290px;
+        padding: 2rem 4rem;
+        width: 100px;
     }
 }
