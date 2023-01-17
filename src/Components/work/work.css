@@ -89,8 +89,54 @@
     }
    }
 
-   @media screen and(max-width : 689px){
-    .work__card {
-        border: 2px solid red;
+   @media screen and (max-width : 689px){
+   
+    .work__container {
+        /* border: 2px solid green; */
+       margin-left: 200px;
+    }
+    .work__filters {
+        margin-left: 150px;
     }
    }
+   @media screen and (max-width : 605px){
+
+    .work__container {
+        /* border: 2px solid green; */
+       margin-left: 230px;
+    }
+    .work__filters {
+        margin-left: 220px;
+    }
+   }
+   @media screen and (max-width : 576px){
+
+    .work__container {
+        grid-template-columns: 1fr;
+        margin-left:50px;
+    }
+    .work__filters {
+        margin-left: 0px;
+    }
+    .work__img {
+        width: 100%;
+    }
+   }
+
+   @media screen and (max-width : 350px){
+
+    .work__item {
+        font-size: 0.875rem;
+    }
+    .work__filters {
+        column-gap: 0.25rem;
+        margin-left: 180px;
+    }
+    .work__container {
+        margin-left: 100px;
+        /* border: 1px solid red; */
+        width: 85%;
+    }
+
+   }
+
