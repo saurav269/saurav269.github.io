@@ -105,8 +105,8 @@
     border-radius: 1rem;
     font-weight: var(--font-medium);
    }
-   .button :hover{
-    background-color: black;
+   .button:hover{
+    background-color: rgb(36, 115, 24);
     /* title color dark */
    }
    .button__icon {

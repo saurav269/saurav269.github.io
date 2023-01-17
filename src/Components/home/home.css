@@ -160,9 +160,10 @@
     .home__img {
         /* display: block;
        text-align: center; */
-       margin-left: 78px;
+       margin-left: 20px;
         width: 230px;
         height: 230px;
+        /* border: 1px solid red; */
     }
     .home__hand {
         width: 27px;
@@ -170,18 +171,21 @@
        margin-left: 90px;
     }
     .home__title{
-        margin-left: 140px;
+        margin-left: 60px;
         font-size: 27px;
+        /* border: 1px solid red; */
     }
     .home__subtitle{
-        margin-left: 165px;
-        font-size: 20px;
+        margin-left: 55px;
+        font-size: 16px;
+        /* border: 1px solid red; */
     }
     .home__description {
         max-width: initial;
         margin-bottom: 2.5rem;
-        margin-left: 130px;
-        font-size: 20px;
+        margin-left: 40px;
+        font-size: 18px;
+        /* border: 1px solid red; */
     }
     .button {
        display: block;

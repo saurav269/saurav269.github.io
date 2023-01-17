@@ -38,6 +38,7 @@
 .work__img { 
     width: 80%;
     border-radius: 1rem;
+    border: 1px solid rgb(1, 1, 93);
     margin-bottom: 1rem;
 }
 .work__btn{
@@ -164,15 +165,23 @@
 
    @media screen and (max-width : 350px){
 
+    .section__title{
+        margin-left: 90px;    
+    }
+    .section__subtitle{
+        margin-left: 30%;
+    }
+
     .work__item {
         font-size: 0.875rem;
     }
     .work__filters {
         column-gap: 0.25rem;
-        margin-left: 180px;
+        margin-left: 100px;
+        /* border: 1px solid red; */
     }
     .work__container {
-        margin-left: 100px;
+        margin-left: 60px;
         /* border: 1px solid red; */
         width: 85%;
     }

@@ -134,30 +134,34 @@
 @media screen and (max-width : 350px){
 
    .section__title{
-      margin-left: 170px;
-      font-size: 35px;
+      margin-right: 12%;
+      font-size: 28px;
+      /* border: 1px solid red; */
    }
    .section__subtitle{
-      margin-left: 170px;
-      font-size: 17px;
+      margin-right: 14%;
+      font-size: 15px;
    }
     .about__img{
       display: block;
-      /* margin-left: 180px; */
+      margin-right: 11%;
     }
     .about__container{
-      /* border: 2px solid red; */
-      margin-left: 100px;
+      /* border: 1px solid red; */
+      margin-left: 50px;
       width: 300px;
-
     }
+    .about__description {
+      /* border: 1px solid red; */
+      margin-right: 14%;
+   }
 
    .about__info {
       grid-template-columns: repeat(1,1fr);
    }
    .about__box {
       width: 200px;
-      margin: auto;
+      margin-left: 10%;
    }
    .button {
       width: 190px;

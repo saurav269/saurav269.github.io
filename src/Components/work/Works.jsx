@@ -58,7 +58,7 @@ return (
         An Individual Project executed in 5 days.</p>
          </div>
         <div className='work__btn'>
-        <a href='https://brilliant-caramel-dc05c8.netlify.app/' className='work__button'>
+        <a href='https://brilliant-caramel-dc05c8.netlify.app/' className='work__button' target='_blank'>
             Project Link
          </a>
         <br/>
@@ -78,7 +78,7 @@ return (
               members executed in 5 days.</p>
          </div>
         <div className='work__btn'>
-        <a href='https://verdant-cassata-403b75.netlify.app/' className='work__button'>
+        <a href='https://verdant-cassata-403b75.netlify.app/' className='work__button' target='_blank'>
             Project Link
             </a>
         <br/>
@@ -97,7 +97,7 @@ return (
                 and health content. An Individual Project executed in 5 days.</p>
          </div>
         <div className='work__btn'>
-        <a href='https://inquisitive-liger-94cfad.netlify.app/' className='work__button'>
+        <a href='https://inquisitive-liger-94cfad.netlify.app/' className='work__button' target='_blank'>
             Project Link
             </a>
         <br/>
@@ -116,7 +116,7 @@ return (
                 Created this app using React</p>
          </div>
         <div className='work__btn'>
-        <a href='https://effortless-rugelach-9a3600.netlify.app/' className='work__button'>
+        <a href='https://effortless-rugelach-9a3600.netlify.app/' className='work__button' target='_blank'>
             Project Link
             </a>
         <br/>
