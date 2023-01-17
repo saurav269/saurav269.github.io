@@ -1,7 +1,16 @@
 import React from 'react'
+import { useState } from 'react'
 import './contact.css'
 
 const Contact = () => {
+
+    const[text,setText] = useState("")
+
+    const handleSubmit=(e)=>{
+        //   e.preventDefault()
+        //   e.target.reset()
+        setText("")
+    }
   return (
     <section id='contact'>
       <h5 className='contact__G'>Get In Touch</h5>
@@ -24,7 +33,10 @@ const Contact = () => {
         </article>
         </div>
         {/* =======END OF CONTACT OPTIONS======== */}
-        <form action=''>
+        <form action='https://formspree.io/f/mqkoabng'
+        method='POST'
+        onSubmit={handleSubmit}
+        >
             <input type='text' name='name' placeholder='Your Full Name' required/>
             <input type='email' name='email' placeholder='Your Email' required />
             <textarea name='message' rows='7' placeholder='Your Message' required ></textarea>
