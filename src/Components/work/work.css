@@ -22,20 +22,21 @@
 }
 
 .work__container {
-
-    grid-template-columns: repeat(2,max-content);
+    grid-template-columns: repeat(1,max-content);
     gap : 2rem;
     justify-content: center;
 }
 .work__card{
-    border: 1px solid rgb(16, 15, 15);
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
     background-color: rgba(255, 255, 255, 0.972);
     padding: 1.25rem;
     border-radius: 1rem;
     /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
 .work__img { 
-    width: 300px;
+    width: 80%;
     border-radius: 1rem;
     margin-bottom: 1rem;
 }
@@ -57,6 +58,12 @@
     align-items: center;
     column-gap: 0.25rem;
 } 
+.works__sub{
+    /* border: 1px solid red; */
+    width: 70%;
+    color: rgb(53, 54, 50);
+    font-size: 15px;
+}
  
 /* ACTIVE WORK */
 .active-work{
@@ -68,10 +75,14 @@
    @media screen and (max-width : 992px){
 
     .work__container {
-        gap : 1.25rem
+        gap : 1.25rem;
+        /* width: 20%; */
     }
     .work__card {
         padding: 1rem;
+        /* border: 2px solid red; */
+         width: 50%;
+         margin-left: 27%;
     }
     .work__img {
         margin-bottom: 0.75rem;
@@ -87,6 +98,16 @@
     .work__container {
         grid-template-columns: max-content;
     }
+    .work__filters {
+        margin-left: 150px;
+    }
+    .work__card {
+        /* border: 2px solid red; */
+         margin-left: 30%;
+    }
+    .works__sub{
+        font-size: 15px;
+    }
    }
 
    @media screen and (max-width : 689px){
@@ -98,6 +119,12 @@
     .work__filters {
         margin-left: 150px;
     }
+    .work__card {
+         margin-left: 25%;
+    }
+    .works__sub{
+        font-size: 15px;
+    }
    }
    @media screen and (max-width : 605px){
 
@@ -107,6 +134,9 @@
     }
     .work__filters {
         margin-left: 220px;
+    }
+    .works__sub{
+        font-size: 15px;
     }
    }
    @media screen and (max-width : 576px){
@@ -120,6 +150,15 @@
     }
     .work__img {
         width: 100%;
+    }
+    .work__card {
+         width: 90%;
+         margin-left: 0px;
+    }
+    .works__sub{
+        width: 90%;
+        color: rgb(53, 54, 50);
+        font-size: 12px;
     }
    }
 
@@ -136,6 +175,15 @@
         margin-left: 100px;
         /* border: 1px solid red; */
         width: 85%;
+    }
+    .works__sub{
+        width: 100%;
+        color: rgb(53, 54, 50);
+        font-size: 12px;
+    }
+    .work__card {
+         width: 100%;
+         margin-left: 0px;
     }
 
    }

@@ -51,6 +51,12 @@ return (
       <div className='work__card'>
         <img src={Work1} alt='' className='work__img' />
         <h3 className='work__title'>Monster India clone</h3>
+        <div className='works__sub'>
+            <p>An online platform
+             where anyone can search
+         and find jobs according to their choice.
+        An Individual Project executed in 5 days.</p>
+         </div>
         <div className='work__btn'>
         <a href='https://brilliant-caramel-dc05c8.netlify.app/' className='work__button'>
             Project Link
@@ -65,6 +71,12 @@ return (
        <div className='work__card'>
         <img src={Work2} alt='' className='work__img' />
         <h3 className='work__title'>Interntheory Website Clone</h3>
+        <div className='works__sub'>
+            <p>An online platform where anyone can complete
+              their internship and enhance their skill.
+              A collaborative project built by a team of 5
+              members executed in 5 days.</p>
+         </div>
         <div className='work__btn'>
         <a href='https://verdant-cassata-403b75.netlify.app/' className='work__button'>
             Project Link
@@ -79,6 +91,11 @@ return (
        <div className='work__card'>
         <img src={Work3} alt='' className='work__img' />
         <h3 className='work__title'>Tata 1mg Website Clone</h3>
+        <div className='works__sub'>
+            <p>An online medical platform which provides services, 
+                including e-pharmacy,diagnostics, e-consultation 
+                and health content. An Individual Project executed in 5 days.</p>
+         </div>
         <div className='work__btn'>
         <a href='https://inquisitive-liger-94cfad.netlify.app/' className='work__button'>
             Project Link
@@ -94,6 +111,10 @@ return (
        <div className='work__card'>
         <img src={Work4} alt='' className='work__img' />
         <h3 className='work__title'>Timmer App</h3>
+        <div className='works__sub'>
+            <p>A Timmer app which shows hour,minute,and second.User can start,pause and reset also.
+                Created this app using React</p>
+         </div>
         <div className='work__btn'>
         <a href='https://effortless-rugelach-9a3600.netlify.app/' className='work__button'>
             Project Link
@@ -104,6 +125,7 @@ return (
         </a>
         </div>
        </div>
+     
     </div>
 </div>
   )
