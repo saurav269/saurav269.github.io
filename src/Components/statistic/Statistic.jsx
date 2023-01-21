@@ -7,7 +7,7 @@
     return (
    <section className='statistic section'>
        <div>
-        <h2 className='section__title'>My Statistic</h2>
+        <h2 className='statistic__title'>My Statistic</h2>
        </div>
 
        <div className='star__div'>
