@@ -10,6 +10,7 @@ const Header = () => {
     const[Toggle, showMenu] = useState(false)
     const handleClick=()=>{
         // <a download='' href={RESUME}></a>
+        window.open('https://drive.google.com/file/d/1NkrMnLei3JcmZzVIsE_5Bv_tPjOcq7Yb/view?usp=share_link')
         console.log("hello")
     }
     
@@ -46,7 +47,7 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="https://drive.google.com/file/d/1NkrMnLei3JcmZzVIsE_5Bv_tPjOcq7Yb/view?usp=share_link" target='_blank'
+                        <a href={RESUME} download='' onClick={handleClick}
                          className="nav__link">
                             <i className="uli uil-briefcase-alt nav__icon">     
                             </i>

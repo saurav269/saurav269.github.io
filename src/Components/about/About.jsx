@@ -5,6 +5,10 @@
 import Info from './Info';
    
    const About = () => {
+    const handleClick=()=>{
+
+      window.open('https://drive.google.com/file/d/1NkrMnLei3JcmZzVIsE_5Bv_tPjOcq7Yb/view?usp=share_link')
+    }
      return (
       <section className='about section' id="about">
          <h2 className='section__title'>About Me</h2>
@@ -24,7 +28,7 @@ import Info from './Info';
                Seeking asignifi cant position in a reputed organization
                 toutilize and enhance the knowledge and skills.
               </p>
-              <a download="" href={RESUME} className="button button--flex">
+              <a onClick={handleClick} download="" href={RESUME} className="button button--flex">
               Download RESUME
               <svg
                 class="button__icon"
