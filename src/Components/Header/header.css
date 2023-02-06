@@ -7,6 +7,10 @@
     z-index: 100;
     background-color: #fff;
  }
+ /* .my__name{
+
+   font-style :oblique;
+ } */
  .nav {
    height : 60px;
    display: flex;

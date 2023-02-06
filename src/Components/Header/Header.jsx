@@ -19,7 +19,9 @@ const Header = () => {
       <header className="header">
         <nav className="nav container">
             <a href="index.html" className="nav__logo">
-                Saurav
+              <p className='my__name'>
+              Saurav Mallik
+              </p>
             </a>
             <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                 <ul className="nav__list grid">
@@ -47,15 +49,6 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href={RESUME} download='' onClick={handleClick}
-                         className="nav__link">
-                            <i className="uli uil-briefcase-alt nav__icon">     
-                            </i>
-                            Resume
-                        </a>
-                    </li>
-
-                    <li className="nav__item">
                         <a href="#projects" className="nav__link">
                             <i className="uli uil-scenery nav__icon">     
                             </i>
@@ -68,6 +61,14 @@ const Header = () => {
                             <i className="uli uil-message nav__icon">     
                             </i>
                             Contact
+                        </a>
+                    </li>
+                    <li className="nav__item">
+                        <a href={RESUME} download='' onClick={handleClick}
+                         className="nav__link">
+                            <i className="uli uil-briefcase-alt nav__icon">     
+                            </i>
+                            Resume
                         </a>
                     </li>
                 </ul>
