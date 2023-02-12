@@ -89,6 +89,7 @@
     border-radius: .75rem;
     font-weight: var(--font-medium);
     width: 40%;
+    margin-bottom: 5rem;
    }
    .button__form:hover{
     background-color: rgb(36, 115, 24);

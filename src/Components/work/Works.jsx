@@ -5,6 +5,7 @@ import Work1 from '../../assets/work1.png'
 import Work2 from '../../assets/work2.png'
 import Work3 from '../../assets/work3.png'
 import Work4 from '../../assets/work4.png'
+import Work5 from '../../assets/work5.png'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
@@ -102,6 +103,27 @@ return (
             </a>
         <br/>
         <a href="https://github.com/saurav269/chemical-rake-3857/tree/main/my-project" className='home__social-icon' target='_blank'>
+         <i class="uil uil-github-alt"></i>
+        </a>
+        </div>
+       </div>
+
+
+       <div className='work__card'>
+        <img src={Work5} alt='' className='work__img' />
+        <h3 className='work__title'>Jiomart Website Clone</h3>
+        <div className='works__sub'>
+            <p>Jiomart is a multi category online shopping platform, 
+                that currently offers a wide range of groceries & daily wear fashion 
+                to start with it.A collaborative project built by a team of 4
+              members executed in 5 days.</p>
+         </div>
+        <div className='work__btn'>
+        <a href='https://wonderful-choux-93af66.netlify.app/' className='work__button' target='_blank'>
+            Project Link
+            </a>
+        <br/>
+        <a href="https://github.com/saurav269/Jio-mart-Website-Clone-" className='home__social-icon' target='_blank'>
          <i class="uil uil-github-alt"></i>
         </a>
         </div>
