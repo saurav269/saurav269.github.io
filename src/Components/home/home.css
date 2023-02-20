@@ -52,9 +52,10 @@
     box-shadow: inset 0 0 0 9px rgba(8, 7, 7, 0.461) ;
     order: 1;
     justify-self: center;
-    width: 280px;
-    height: 280px;
-    animation: profile__animate 8s ease-in-out infinite 1s;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    /* animation: profile__animate 8s ease-in-out infinite 1s; */
 }
 
 @keyframes profile__animate {
@@ -132,7 +133,7 @@
 
 /* ====================MEDIUM SCREEN================= */
 
-@media screen and (max-width : 768px){
+@media screen and(max-width : 768px){
 
     .home__content {
         grid-template-columns: 0.5fr 3fr;
@@ -150,7 +151,12 @@
         box-shadow: inset 0 0 0 6px rgba(8, 7, 7, 0.461) ;
         width: 200px;
         height: 200px;
+        /* margin-left: 35%; */
     }
+    /* .home__title {
+        align-items: center;
+        margin-left: 42%;
+    } */
     .home__scroll {
         display: none;
     }

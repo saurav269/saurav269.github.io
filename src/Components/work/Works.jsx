@@ -58,9 +58,13 @@ return (
          and find jobs according to their choice.
         An Individual Project executed in 5 days.</p>
          </div>
+         <div className='works__sub'>
+         <p><span className='span__id'> Tech Stack :</span> HTML | CSS | Javascript</p>
+         </div>
         <div className='work__btn'>
         <a href='https://brilliant-caramel-dc05c8.netlify.app/' className='work__button' target='_blank'>
-            Project Link
+            {/* Project Link */}
+            <i class="uil uil-eye"></i>
          </a>
         <br/>
         <a href="https://github.com/saurav269/lackadaisical-look-2573/tree/main/Homepage" className='home__social-icon' target='_blank'>
@@ -78,9 +82,13 @@ return (
               A collaborative project built by a team of 5
               members executed in 5 days.</p>
          </div>
+         <div className='works__sub'>
+         <p><span className='span__id'> Tech Stack :</span> HTML | CSS | Javascript</p>
+         </div>
         <div className='work__btn'>
         <a href='https://verdant-cassata-403b75.netlify.app/' className='work__button' target='_blank'>
-            Project Link
+            {/* Project Link */}
+            <i class="uil uil-eye"></i>
             </a>
         <br/>
         <a href="https://github.com/saurav269/-lawful-dinner-785" className='home__social-icon' target='_blank'>
@@ -97,9 +105,13 @@ return (
                 including e-pharmacy,diagnostics, e-consultation 
                 and health content. An Individual Project executed in 5 days.</p>
          </div>
+         <div className='works__sub'>
+         <p><span className='span__id'> Tech Stack :</span> CSS | Javascript | React JS | Chakra UI</p>
+         </div>
         <div className='work__btn'>
         <a href='https://inquisitive-liger-94cfad.netlify.app/' className='work__button' target='_blank'>
-            Project Link
+            {/* Project Link */}
+            <i class="uil uil-eye"></i>
             </a>
         <br/>
         <a href="https://github.com/saurav269/chemical-rake-3857/tree/main/my-project" className='home__social-icon' target='_blank'>
@@ -118,9 +130,13 @@ return (
                 to start with it.A collaborative project built by a team of 4
               members executed in 5 days.</p>
          </div>
+         <div className='works__sub'>
+         <p><span className='span__id'> Tech Stack :</span> React JS | Redux | Javascript | Chakra UI | CSS | Thunk</p>
+         </div>
         <div className='work__btn'>
         <a href='https://wonderful-choux-93af66.netlify.app/' className='work__button' target='_blank'>
-            Project Link
+            {/* Project Link */}
+            <i class="uil uil-eye"></i>
             </a>
         <br/>
         <a href="https://github.com/saurav269/Jio-mart-Website-Clone-" className='home__social-icon' target='_blank'>
@@ -137,9 +153,13 @@ return (
             <p>A Timmer app which shows hour,minute,and second.User can start,pause and reset also.
                 Created this app using React</p>
          </div>
+         <div className='works__sub'>
+         <p><span className='span__id'> Tech Stack :</span> CSS | Javascript | React JS | Reducer</p>
+         </div>
         <div className='work__btn'>
         <a href='https://effortless-rugelach-9a3600.netlify.app/' className='work__button' target='_blank'>
-            Project Link
+            {/* Project Link */}
+            <i class="uil uil-eye"></i>
             </a>
         <br/>
         <a href="https://github.com/masai-course/saurav_mallik_fp05_269/tree/master/unit-4/sprint-2/day-4/we/timmer-app" className='home__social-icon' target='_blank'>

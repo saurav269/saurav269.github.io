@@ -53,17 +53,22 @@
     color: rgb(18, 154, 13);
 }
 .work__button{
-    color: rgb(17, 17, 221);
-    font-size: 0.875rem;
+    color: rgb(105, 105, 240);
+    font-size: 1.5rem;
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
 } 
 .works__sub{
     /* border: 1px solid red; */
+    margin-top: 10px;
     width: 70%;
     color: rgb(53, 54, 50);
     font-size: 15px;
+    margin-bottom: 10px;
+}
+.span__id{
+    color: blue;
 }
 .working__title{
     font-size: 2.25rem;
