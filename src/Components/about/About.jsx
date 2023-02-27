@@ -11,8 +11,8 @@ import Info from './Info';
     }
      return (
       <section className='about section' id="about">
-         <h2 className='section__title'>About Me</h2>
-         <span className='section__subtitle'>My Introduction</span>
+         <h2 className='section__title__about'>About Me</h2>
+         <span className='section__subtitle__about'>My Introduction</span>
 
           <div className='about__container container grid'>
             <img src={AboutImg} alt="my" className='about__img' />
