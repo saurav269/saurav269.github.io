@@ -7,7 +7,7 @@ import Info from './Info';
    const About = () => {
     const handleClick=()=>{
 
-      window.open('https://drive.google.com/file/d/1NkrMnLei3JcmZzVIsE_5Bv_tPjOcq7Yb/view?usp=share_link')
+      window.open('https://drive.google.com/file/d/1l6vgO_Tro_r7QjL5bnBczkgYOBNOqulQ/view?usp=share_link')
     }
      return (
       <section className='about section' id="about">
