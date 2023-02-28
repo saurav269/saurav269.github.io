@@ -129,7 +129,7 @@
     }
     .work__card {
         /* border: 2px solid red; */
-         margin-left: 29%;
+         margin-left: 28%;
     }
     .works__sub{
         font-size: 15px;
@@ -249,7 +249,7 @@
         /* border: 1px solid red; */
     }
     .work__container {
-        margin-left: 50px;
+        margin-left: 10%;
         /* border: 1px solid red; */
         width: 85%;
     }
@@ -265,3 +265,11 @@
 
    }
 
+@media screen and (max-width : 320px) {
+
+    .work__container{
+        margin-left: 14%;
+        /* border: 1px solid red; */
+    }
+    
+}

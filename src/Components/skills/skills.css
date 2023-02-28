@@ -161,12 +161,15 @@
         margin-left: 12%;
     }
     .skills__container {
-        margin-left: 7%;
+        margin-left: 35%;
+        width: 45%;
         /* border: 1px solid red; */
     }
-    /* .skills__content {
-        border: 2px solid red;
-    } */
+    .skills__content {
+        /* border: 2px solid red; */
+        width: 80%;
+        margin-left: 10%;
+    }
     .hero__img{
         width : 25%;
     }
@@ -179,7 +182,7 @@
  @media screen and (max-width : 725px){
     .skills__container {
         /* border: 2px solid red; */
-        margin-left: 200px;
+        margin-left: 80px;
     }
     .section__title__skills {
         margin-left: 15%;
@@ -221,8 +224,8 @@
     .skills__content {
         /* margin-right: 30px; */
         /* border: 2px solid red; */
-        /* width: 300px; */
-        margin-left: 3%;
+        /* width: 90%; */
+        margin-left: 24%;
     }
  }
  @media screen and (max-width : 350px){
@@ -243,9 +246,13 @@
 
  @media screen and (max-width : 325px){
     .skills__content {
-        margin-left: 4%;
-        width: 98%;
+        margin-left: 6%;
+        width: 90%;
         /* border: 1px solid red; */
+    }
+    .skills__container{
+        /* border: 1px solid red; */
+        width: 100%;
     }
     .section__title__skills {
         /* border: 1px solid red; */

@@ -65,8 +65,12 @@
     
     .star__div{
         width: 98%;
+        margin-left: 7%;
+        /* border: 1px solid red; */
     }
     .calender__div{
+        /* border: 1px solid red; */
+        margin-left: 7%;
         width: 98%;
     }
     .statistic__title{
@@ -96,6 +100,11 @@
     .calender__p{
         font-size: 15px;
     }
+    .calender__div {
+        /* border: 1px solid red; */
+        margin-left: 7%;
+  
+      }
 }
 @media screen and (max-width : 350px) {
     .calender__p{
@@ -106,12 +115,12 @@
 
     .star__div{
         /* border: 1px solid red; */
-        margin-left: 13%;
+        margin-left: 14%;
     }
 
     .calender__div {
       /* border: 1px solid red; */
-      margin-left: 13%;
+      margin-left: 14%;
 
     }
     .statistic__title{

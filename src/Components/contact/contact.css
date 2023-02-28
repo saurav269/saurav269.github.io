@@ -213,6 +213,10 @@
         /* border: 1px solid red; */
         margin-left: 12%;
       }
+      .button__form{
+        /* border: 2px solid red; */
+        width: 50%;
+      }
     
    }
 
