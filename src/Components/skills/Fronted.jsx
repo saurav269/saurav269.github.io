@@ -1,4 +1,5 @@
 import React from 'react'
+import Html from '../../assets/HTML.png'
 
 const Fronted = () => {
   return (
@@ -9,6 +10,7 @@ const Fronted = () => {
             <div className='skills__group'>
                 <div className='skills__data'>
                 <i class='bx bx-badge-check'></i>
+                {/* <img src={Html} alt='html' className='hero__img'/> */}
 
                <div>
                 <h3 className='skills__name'>HTML</h3>
@@ -18,6 +20,7 @@ const Fronted = () => {
 
                 <div className='skills__data'>
                 <i class='bx bx-badge-check'></i>
+                {/* <img src={Html} alt='html' className='hero__img'/> */}
 
                <div>
                 <h3 className='skills__name'>CSS</h3>

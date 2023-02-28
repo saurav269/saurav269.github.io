@@ -12,10 +12,10 @@
    }
 
 .skills__container {
-
     grid-template-columns: repeat(2,350px);
     column-gap: 3rem;
     justify-content: center;
+    /* border: 1px solid red; */
 }
 
 .skills__content {
@@ -23,6 +23,8 @@
     border: 1px solid rgba(0,0,0,0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    /* border: 2px solid blue; */
+    /* width: 170%; */
 }
 .skills__name{
     color: rgb(47, 0, 255);
@@ -44,6 +46,7 @@
     display: flex;
     justify-content: center;
     column-gap: 2.5rem;
+    /* border: 1px solid red; */
  }
  .skills__group {
     display: grid;
@@ -64,13 +67,24 @@
     font-weight: 500;
     line-height: 18px;
  }
+ .hero__img {
+    /* border: 1px solid red; */
+    width: 20%;
+    height: 20%;
+ }
 
  @media screen and (max-width : 992px){
 
     .skills__container {
         grid-template-columns: max-content;
         row-gap: 2rem;
+        /* border: 1px solid red; */
     }  
+    .hero__img{
+         
+        width: 20%;
+        height: 20%;
+    }
  }
  @media screen and (max-width : 770px) {
 
@@ -84,6 +98,13 @@
         width : 90%;
         margin-left: 12%;
     }
+    .skills__container {
+        margin-left: 14%;
+        /* border: 1px solid red; */
+    }
+    /* .skills__content {
+        border: 2px solid red;
+    } */
     
  }
  @media screen and (max-width : 725px){
@@ -102,11 +123,14 @@
 
     .skills__container {
         grid-template-columns: 1fr;
-        margin-left: 60px;
+        margin-left: 5%;
+        /* border: 1px solid red; */
     }
     .skills__content {
         padding: 1rem;
         width: 350px;
+        /* border: 2px solid blue; */
+        margin-left: 15%;
     }
     .section__title__skills{
         margin: auto;
@@ -118,7 +142,8 @@
  @media screen and (max-width : 443px){
 
     .skills__content{
-        width: 350px;
+        /* width: 96%; */
+        margin-left: 3%;
     }
  }
  @media screen and (max-width : 400px){
@@ -126,7 +151,7 @@
     .skills__content {
         /* margin-right: 30px; */
         /* border: 2px solid red; */
-        width: 300px;
+        /* width: 300px; */
         margin-left: 0px;
     }
  }
@@ -134,19 +159,21 @@
 
     .skills__box {
         column-gap: 1.25rem;
+        /* border: 1px solid red; */
     }
     .skills__name {
         font-size: 0.875rem;
     }
     .skills__content {
-        margin-right: 20%;
-        border: 1px solid red;
+        /* margin-right: 20%; */
+        margin-left: 2%;
+        /* border: 1px solid red; */
     }
  }
 
  @media screen and (max-width : 319px){
-    /* .skills__content {
-        margin-left: 70px;
+    .skills__content {
+        margin-left: 14%;
         border: 1px solid red;
-    } */
+    }
  }
