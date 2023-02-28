@@ -1,13 +1,13 @@
    import React from 'react'
    import './about.css'
    import AboutImg from '../../assets/about.png'
-   import RESUME from '../../assets/Saurav_Mallik_Resume.pdf';
+   import RESUME from '../../assets/fp05_269-Saurav-Mallik-Resume.pdf';
 import Info from './Info';
    
    const About = () => {
     const handleClick=()=>{
 
-      window.open('https://drive.google.com/file/d/1l6vgO_Tro_r7QjL5bnBczkgYOBNOqulQ/view?usp=share_link')
+      window.open('https://drive.google.com/file/d/1Zdo08qPlBnzd0txahuzbAiicmSHOJzs-/view?usp=sharing')
     }
      return (
       <section className='about section' id="about">
