@@ -172,9 +172,10 @@
     }
  }
 
- @media screen and (max-width : 319px){
+ @media screen and (max-width : 325px){
     .skills__content {
-        margin-left: 14%;
-        border: 1px solid red;
+        margin-left: 4%;
+        width: 98%;
+        /* border: 1px solid red; */
     }
  }

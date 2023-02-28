@@ -28,7 +28,7 @@ import Info from './Info';
                Seeking asignifi cant position in a reputed organization
                 toutilize and enhance the knowledge and skills.
               </p>
-              <a onClick={handleClick} download="" href={RESUME} className="button button--flex">
+              <a onClick={handleClick} download="" href={RESUME} className="button__about button--flex">
               Download RESUME
               <svg
                 class="button__icon"

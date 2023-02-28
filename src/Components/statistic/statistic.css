@@ -102,6 +102,24 @@
         font-size: 14px;
     }
 }
+@media screen and (max-width : 320px) {
+
+    .star__div{
+        /* border: 1px solid red; */
+        margin-left: 13%;
+    }
+
+    .calender__div {
+      /* border: 1px solid red; */
+      margin-left: 13%;
+
+    }
+    .statistic__title{
+        /* border: 1px solid red; */
+        margin-left: 10%;
+    }
+    
+}
 @media screen and (max-width : 313px){
     .star__div{
         /* border: 1px solid red; */

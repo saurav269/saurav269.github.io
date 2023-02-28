@@ -116,16 +116,17 @@
     }
    }
 
-   @media screen and (max-width : 765px){
+   @media screen and (max-width : 768px){
 
     .contact__G{
-        margin-left: 20%;
+        margin-left: 15%;
+        /* border: 1px solid red; */
        }
        .contact__C{
-        margin-left: 20%;
+        margin-left: 15%;
        }
        .container.contact__container{
-        margin-left: 30%;
+        margin-left: 24%;
        }
        .button__form{
         margin-bottom: 4rem;
@@ -194,5 +195,24 @@
         padding: 0.7rem 0.7rem;
         font-size: 12px;
     }
+   }
+
+   @media screen and (max-width : 320px) {
+
+      .contact__G {
+        /* border: 1px solid red; */
+        margin-left: 5%;
+      }
+      .contact__C {
+        /* border: 1px solid red; */
+        margin-left: 5%;
+      }
+
+      .container.contact__container{
+
+        /* border: 1px solid red; */
+        margin-left: 12%;
+      }
+    
    }
 

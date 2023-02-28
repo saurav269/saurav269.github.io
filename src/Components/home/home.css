@@ -242,8 +242,8 @@
     }
     .button {
        display: block;
-       margin-left: 290px;
-        padding: 2rem 4rem;
-        width: 100px;
+       margin-left: 15%;
+        padding: 1.5rem 2rem;
+        width: 75%;
     }
 }
