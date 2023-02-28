@@ -28,7 +28,8 @@ const Header = () => {
                     <li className="nav__item">
                         <a href="#home" className="nav__link active-link">
                             <i className="uli uil-estate nav__icon">
-                            </i>Home
+                            </i>
+                            Home
                         </a>
                     </li>
 
