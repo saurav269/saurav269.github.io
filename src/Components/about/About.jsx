@@ -2,7 +2,8 @@
    import './about.css'
    import AboutImg from '../../assets/about.png'
    import RESUME from '../../assets/fp05_269-Saurav-Mallik-Resume.pdf';
-import Info from './Info';
+   import Info from './Info';
+   
    
    const About = () => {
     const handleClick=()=>{
@@ -28,7 +29,7 @@ import Info from './Info';
                Seeking asignifi cant position in a reputed organization
                 toutilize and enhance the knowledge and skills.
               </p>
-              <a onClick={handleClick} download="" href={RESUME} className="button__about button--flex">
+              <a onClick={handleClick} download="fp05_269-Saurav-Mallik-Resume.pdf" href={RESUME} className="button__about button--flex">
               Download RESUME
               <svg
                 class="button__icon"

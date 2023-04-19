@@ -1,4 +1,5 @@
 import React from 'react'
+import Typewriter from 'typewriter-effect'
 
 const Data = () => {
   return (
@@ -54,6 +55,13 @@ const Data = () => {
                   ></path>
             </svg>
       </h1>
+      {/* <Typewriter 
+       options={{
+        strings:["A Full Stack Web Developer.", "I Love To Code."],
+        autoStart: true,
+        loop: true,
+        deleteSpeed: 80,
+      }}/> */}
       <h3 className='home__subtitle'>Full Stack Web Developer</h3>
       <p className='home__description'>
         A creative Full Stack Web Developer and very passionate

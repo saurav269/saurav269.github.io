@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 // import './App.css';
 import './header.css'
-import RESUME from '../../assets/Saurav_Mallik_Resume.pdf'
+import RESUME from '../../assets/fp05_269-Saurav-Mallik-Resume.pdf'
 
 const Header = () => {
 
@@ -10,7 +10,7 @@ const Header = () => {
     const[Toggle, showMenu] = useState(false)
     const handleClick=()=>{
         // <a download='' href={RESUME}></a>
-        window.open('https://drive.google.com/file/d/1Zdo08qPlBnzd0txahuzbAiicmSHOJzs-/view?usp=sharing')
+        window.open('https://drive.google.com/file/d/1Zdo08qPlBnzd0txahuzbAiicmSHOJzs-/view?usp=sharing',"blank")
         console.log("hello")
     }
     
@@ -65,7 +65,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li className="nav__item">
-                        <a href={RESUME} download='' onClick={handleClick}
+                        <a href={RESUME} download='fp05_269-Saurav-Mallik-Resume.pdf' onClick={handleClick}
                          className="nav__link">
                             <i className="uli uil-briefcase-alt nav__icon">     
                             </i>
