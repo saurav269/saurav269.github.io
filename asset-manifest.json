@@ -1,13 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.1c7e6c1b.css",
-    "main.js": "/static/js/main.40fd97f1.js",
+    "main.js": "/static/js/main.7a76b389.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/work5.png": "/static/media/work5.53428b85d2da521c2e7e.png",
     "static/media/work2.png": "/static/media/work2.5bf1ab7115257b1ffeb4.png",
     "static/media/work3.png": "/static/media/work3.28ab219e192efb03fd0b.png",
-    "static/media/Saurav_Mallik_Resume.pdf": "/static/media/Saurav_Mallik_Resume.33155adf2b7dd3561f56.pdf",
-    "static/media/fp05_269-Saurav-Mallik-Resume.pdf": "/static/media/fp05_269-Saurav-Mallik-Resume.c3791b6780a28e5c39f0.pdf",
+    "static/media/fp05_269-Saurav_Mallik-Resume.pdf": "/static/media/fp05_269-Saurav_Mallik-Resume.e28e9bd55041bea639f4.pdf",
     "static/media/Saurav.png": "/static/media/Saurav.a490442a92357117b57c.png",
     "static/media/about.png": "/static/media/about.a490442a92357117b57c.png",
     "static/media/work1.png": "/static/media/work1.ff3f903a475fb5bce793.png",
@@ -25,11 +24,11 @@
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
     "main.1c7e6c1b.css.map": "/static/css/main.1c7e6c1b.css.map",
-    "main.40fd97f1.js.map": "/static/js/main.40fd97f1.js.map",
+    "main.7a76b389.js.map": "/static/js/main.7a76b389.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1c7e6c1b.css",
-    "static/js/main.40fd97f1.js"
+    "static/js/main.7a76b389.js"
   ]
 }
