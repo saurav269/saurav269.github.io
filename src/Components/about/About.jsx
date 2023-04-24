@@ -1,7 +1,7 @@
    import React from 'react'
    import './about.css'
    import AboutImg from '../../assets/about.png'
-   import RESUME from '../../assets/fp05_269-Saurav-Mallik-Resume.pdf';
+   import RESUME from '../../assets/fp05_269-Saurav_Mallik-Resume.pdf';
    import Info from './Info';
    
    

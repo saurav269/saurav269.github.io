@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 // import './App.css';
 import './header.css'
-import RESUME from '../../assets/fp05_269-Saurav-Mallik-Resume.pdf'
+import RESUME from '../../assets/fp05_269-Saurav_Mallik-Resume.pdf'
 
 const Header = () => {
 
@@ -65,7 +65,7 @@ const Header = () => {
                         </a>
                     </li>
                     <li className="nav__item">
-                        <a href={RESUME} download='fp05_269-Saurav-Mallik-Resume.pdf' onClick={handleClick}
+                        <a href={RESUME} download='fp05_269-Saurav_Mallik-Resume.pdf' onClick={handleClick}
                          className="nav__link">
                             <i className="uli uil-briefcase-alt nav__icon">     
                             </i>
