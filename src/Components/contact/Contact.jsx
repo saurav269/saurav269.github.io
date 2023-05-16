@@ -37,7 +37,7 @@ const Contact = () => {
         method='POST'
         onSubmit={handleSubmit}
         >
-            <input type='text' name='name' placeholder='Your Full Name' required/>
+            <input type='text' name='name' placeholder='Your Full Name' style={{color : "white"}} required/>
             <input type='email' name='email' placeholder='Your Email' required />
             <textarea name='message' rows='7' placeholder='Your Message' required ></textarea>
             <button type='submit' className='button__form'>Send Message</button>

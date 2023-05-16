@@ -8,7 +8,7 @@
    const About = () => {
     const handleClick=()=>{
 
-      window.open('https://drive.google.com/file/d/1Zdo08qPlBnzd0txahuzbAiicmSHOJzs-/view?usp=sharing')
+      window.open('https://drive.google.com/file/d/1Zdo08qPlBnzd0txahuzbAiicmSHOJzs-/view?usp=share_link')
     }
      return (
       <section className='about section' id="about">

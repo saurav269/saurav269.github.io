@@ -190,6 +190,11 @@
     .section__subtitle__skills{
         margin-left: 15%;
     }
+    .skills__content{
+        /* border: 2px solid blue; */
+        margin-left: 35%;
+
+    }
  }
  @media screen and (max-width : 576px){
 
@@ -202,7 +207,7 @@
         padding: 1rem;
         width: 350px;
         /* border: 2px solid blue; */
-        margin-left: 15%;
+        margin-left: 35%;
     }
     .section__title__skills{
         margin: auto;
@@ -215,7 +220,7 @@
 
     .skills__content{
         /* width: 96%; */
-        margin-left: 6%;
+        margin-left: 27%;
         /* border: 1px solid red; */
     }
  }

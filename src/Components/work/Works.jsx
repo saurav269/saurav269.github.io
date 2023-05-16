@@ -6,6 +6,7 @@ import Work2 from '../../assets/work2.png'
 import Work3 from '../../assets/work3.png'
 import Work4 from '../../assets/work4.png'
 import Work5 from '../../assets/work5.png'
+import Work6 from '../../assets/work6.png'
 import Html from '../../assets/HTML.png'
 import { useState } from 'react'
 import { useEffect } from 'react'
@@ -50,6 +51,27 @@ return (
     </div>
 
     <div className='work__container container grid'>
+    <div className='work__card'>
+        <img src={Work6} alt='book-app' className='work__img' />
+        <h3 className='work__title'>Book Store App</h3>
+        <div className='works__sub'>
+            <p>An e-commerce platform for all types of books, where users can order and buy any books.
+        An Individual Project executed in 10 days.</p>
+         </div>
+         <div className='works__sub'>
+         <p><span className='span__id'> Tech Stack :</span> React | NodeJs | MongoDb | Express | Javascript | BootStrap | Chakra Ui</p>
+         </div>
+        <div className='work__btn'>
+        <a href='https://ecom-app-eta.vercel.app/' className='work__button' target='_blank'>
+            {/* Project Link */}
+            <i class="uil uil-eye"></i>
+         </a>
+        <br/>
+        <a href="https://github.com/saurav269/Book-Store-MERN_APP-" className='home__social-icon' target='_blank'>
+         <i class="uil uil-github-alt"></i>
+        </a>
+        </div>
+       </div>
       <div className='work__card'>
         <img src={Work1} alt='' className='work__img' />
         <h3 className='work__title'>Monster India clone</h3>

@@ -37,8 +37,22 @@
   }
   body {
     background-color: rgb(74, 3, 110);
+    /* background-color: rgb(35, 12, 128); */
+    /* background: -webkit-linear-gradient(
+      to right,
+      rgb(194, 93, 201),
+      /* rgb(216, 63, 63), */
+      /* rgb(35, 12, 128)
+  
+    ); */
+    /* background: linear-gradient(
+      to right,
+      rgb(194, 93, 201),
+      /* rgb(216, 63, 63), */
+      /* rgb(35, 12, 128) */
+  
+    /* );  */ 
     color: rgb(232, 211, 211);
-    /* text color */
   }
   h1,h2,h3 {
     color: tomato;

@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 // import './App.css';
 import './header.css'
-import RESUME from '../../assets/fp05_269-Saurav_Mallik-Resume.pdf'
+import RESUME from '../../assets/fp05_269-Saurav_Mallik-Resume.pdf';
 
 const Header = () => {
 
