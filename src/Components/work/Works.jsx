@@ -8,6 +8,7 @@ import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
 import Work6 from "../../assets/work6.png";
 import Work7 from "../../assets/work7.png";
+import Work8 from "../../assets/work8.png";
 import Html from "../../assets/HTML.png";
 import { useState } from "react";
 import { useEffect } from "react";
@@ -58,14 +59,16 @@ const Works = () => {
           <h3 className="work__title">Blood Bank App</h3>
           <div className="works__sub">
             <p>
-            A blood bank app is a application that allows users to search for and donate blood. The app also stores information about blood donors,Hospitals,Organization such as their contact information and donation history. An Individual Project executed in 15
-              days.
+              A blood bank app is a application that allows users to search for
+              and donate blood. The app also stores information about blood
+              donors,Hospitals,Organization such as their contact information
+              and donation history. An Individual Project executed in 15 days.
             </p>
           </div>
           <div className="works__sub">
             <p>
-              <span className="span__id"> Tech Stack :</span> React | Redux | NodeJs |
-              MongoDb | Express | Javascript | BootStrap
+              <span className="span__id"> Tech Stack :</span> React | Redux |
+              NodeJs | MongoDb | Express | Javascript | BootStrap
             </p>
           </div>
           <div className="work__btn">
@@ -122,6 +125,42 @@ const Works = () => {
             </a>
           </div>
         </div>
+
+        <div className="work__card">
+          <img src={Work8} alt="book-app" className="work__img" />
+          <h3 className="work__title">Movie Suggestion App</h3>
+          <div className="works__sub">
+            <p>
+              Movie Suggestion App using React, interfacing with the TMDB API.
+              The app should enable users to search for movies, view details,
+              with options for sorting and filtering.
+            </p>
+          </div>
+          <div className="works__sub">
+            <p>
+              <span className="span__id"> Tech Stack :</span> ReactJs | Javascript | SCSS | Redux
+            </p>
+          </div>
+          <div className="work__btn">
+            <a
+              href="https://movie-app-psi-one.vercel.app/"
+              className="work__button"
+              target="_blank"
+            >
+              {/* Project Link */}
+              <i class="uil uil-eye"></i>
+            </a>
+            <br />
+            <a
+              href="https://github.com/saurav269/Movie-app"
+              className="home__social-icon"
+              target="_blank"
+            >
+              <i class="uil uil-github-alt"></i>
+            </a>
+          </div>
+        </div>
+
         <div className="work__card">
           <img src={Work1} alt="" className="work__img" />
           <h3 className="work__title">Monster India clone</h3>
